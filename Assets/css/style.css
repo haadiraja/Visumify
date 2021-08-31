@@ -246,10 +246,12 @@ select{
 
 #header2 {
      
-  height: 40vh;
+
+
+  
   
           /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-          background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.438)), to(rgba(0, 0, 0, 0.9))), url('') ;
+          /* background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.438)), to(rgba(0, 0, 0, 0.9))), url('') ; */
 
           /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
           /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
