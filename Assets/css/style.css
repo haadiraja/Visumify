@@ -143,16 +143,7 @@ background-color: #f5f6f8 !important;
     text-transform: uppercase !important;
 }
 
-#header1{
-     
-  height: 68vh;
-  
-          /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-background: grey;          /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-          /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
 
-
-}
 
 /* .fas{
   color: #c8c8c8;
@@ -244,21 +235,6 @@ select{
 /* ______________________________________________________________________Jobs_________________________________________________________ */
 
 
-#header2 {
-     
-
-
-  
-  
-          /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-          /* background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.438)), to(rgba(0, 0, 0, 0.9))), url('') ; */
-
-          /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-          /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
-
-
-}
-
 .jobs_background{
   margin-top: 0px !important;
 /* background-color: #f5f6f8 !important; */
@@ -323,25 +299,14 @@ select{
 /* ______________________________________________________________________Candidates_________________________________________________________ */
 
 
-#header3{
-     
-  height: 48vh;
-  
-          /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-background: grey;          /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-          /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
-
-
-}
-
-.candidates_background{
-  margin-top: 180px !important;
+.candidates_searchBox{
+  margin-top:20px !important;
   margin-left: 25px;
 /* background-color: #f5f6f8 !important; */
 }
 
-.candidates_background ul li{
-  width: 400px !important;
+.candidates_searchBox ul li{
+  width: 465px !important;
   list-style: none;
   border-color: #AAAAAA;
 }
@@ -361,7 +326,8 @@ input:focus{
 .icon {
   color: #AAAAAA;
   padding: 15px;
-  margin-left: 350px;
+  margin-left: 405px;
+  margin-top: 5px;
   min-width: 50px;
 }
 
