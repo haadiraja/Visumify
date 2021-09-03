@@ -234,14 +234,41 @@ select{
 /*========================================================================================================================================== */
 /* ______________________________________________________________________Jobs_________________________________________________________ */
 
+.jobs-header-inner{
+  margin-top: 75px !important;
+  margin-left: 2rem !important;
+}
 
-.jobs_background{
-  margin-top: 0px !important;
+.jobFindBox{
+  /* margin-left: 30px; */
 /* background-color: #f5f6f8 !important; */
 }
 
-.jobs-header-inner{
-  margin-top: 55px !important;
+.jobFindBox ul li{
+  width: 310px !important;
+  margin-right: 15px;
+  list-style: none;
+  border-color: #AAAAAA;
+}
+
+.inputSet{
+  margin: 0px !important;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+}
+
+.iconINjob {
+  color: #AAAAAA;
+  padding: 15px;
+  margin-left: 265px;
+  margin-top: 2px;
+  min-width: 50px;
 }
 
 .job_cards{
@@ -279,6 +306,17 @@ select{
   /* border-radius: 1px !important; */
   border-color: grey !important;
   border: 0.5px !important;
+}
+
+.sidebar-filters p{
+  font: bold 13.35px "Raleway",sans-serif;
+  margin-bottom: 0px !important;
+  color: #424242;
+}
+
+.sidebar-filters input{
+  margin-bottom: -15px !important;
+  padding-bottom: 0% !important;
 }
 
 .btn-outline-dark{
