@@ -154,13 +154,19 @@ background-color: #f5f6f8 !important;
 
 
 .inner-card{
-  border: solid 0.5px rgba(128, 128, 128, 0.089);
+  /* border: solid 0.5px rgba(128, 128, 128, 0.089); */
+  border: none !important;
   background-color: #f9f9f9;
   transition: all ease-in-out 0.3s;
 }
 .inner-card:hover{
   
   background-color: #FCFCFC;
+}
+
+.inner-card:hover a{
+  
+  color: rgb(25, 206, 109);
 }
 
 
@@ -710,6 +716,10 @@ button:hover {
   color: #777777;
   font-size: 12px;
   font-weight: 700;
+}
+
+.card{
+  border: none !important;
 }
 
 .experiance_card .card{
