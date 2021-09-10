@@ -248,10 +248,9 @@ select{
   margin-left: 2rem !important;
 }
 
-.jobFindBox{
-  /* margin-left: 30px; */
-/* background-color: #f5f6f8 !important; */
-}
+/* .jobFindBox{
+
+} */
 
 .jobFindBox ul li{
   width: 310px !important;
@@ -1270,21 +1269,27 @@ color: #55ACEE;
 
 .postedJobs_card{
   margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 1px solid;
   border-color: #e4e1e1;
 
 }
 
-.qualification_card a{
-  color: black !important;
-  font-size: 14px;
-  font-weight: bold;
+.postedJobs_card a{
+  font: 11px "Montserrat", sans-serif;
 }
 
-.qualification_card p{
-  color: #777777;
-  font-size: 12px;
-  font-weight: 700;
+.postedJobs_card p{
+  text-decoration: underline;
+}
+
+.activeClass{
+  color: #55A747;
+}
+
+.inActiveClass{
+  color: red;
 }
 
 .qualification_card .card{
