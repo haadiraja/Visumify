@@ -1292,10 +1292,6 @@ color: #55ACEE;
   color: red;
 }
 
-.qualification_card .card{
-  width: 85px max-content;
-}
-
 .sidebar-filters{
   /* border-radius: 1px !important; */
   border-color: grey !important;
@@ -1426,22 +1422,15 @@ color: #777777;
   color: rgb(88, 88, 88);
 }
 
-.appliedJobs_card{
+.shortlistCandidate_card{
   border: solid 0.5px rgba(128, 128, 128, 0.089);
   /* background-color: white; */
   transition: all ease-in-out 0.3s;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: 0%;
   cursor: pointer;
 }
 
-.appliedJobs_card h6{
-  margin-top: 20px;
-}
-
-.appliedJobs_card p{
-  font-size: 12px;
-  color: rgb(88, 88, 88);
-}
 
 .progressIndicatorYes{
   text-align: center;
