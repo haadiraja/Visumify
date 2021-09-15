@@ -10,6 +10,8 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel='stylesheet' id='jobcareer_style_css-css' href='Assets/css/style1.css' type='text/css' media='all' />
     <link rel='stylesheet' id='jobcareer_widgets_css-css' href='Assets/css/widget.css' type='text/css' media='all' />
@@ -18,17 +20,18 @@
     <link rel='stylesheet' id='cs_iconmoon_css-css' href='Assets/css/iconmoon.css' type='text/css' media='all' />
 
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".overview_navbar">
 
     <!-- Start of Navbar -->
     <nav id="navbar" class="navbar navbar1 px-0 navbar-expand-lg px-5 py-3  mb-0">
         <div class="container">
-            <a href="{{url('/')}}" class="navbar-brand">
+            <a href="C:\Users\Haroon\OneDrive\Documents\GitHub\Visumify\index.htm" class="navbar-brand">
                 <img src="Assets/img/logo.png" alt="Visumify Logo" class=" " style="color:#CBCBCB">
             </a>
             <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#navDiv">
@@ -39,26 +42,28 @@
                     </span>
                 </span>
             </button>
-            <div class="collapse navbar-collapse text-center pt-2" id="navDiv">
-                <ul class="navbar-nav ml-auto text-dark">
+            <div class="collapse navbar-collapse text-center clearfix pt-2" id="navDiv">
+                <ul class="navbar-nav ml-auto text-dark float-right">
 
                     <li class="nav-item px-2 active">
-                        <a href="" class="nav-link">Jobs</a>
+                        <a href="C:\Users\Haroon\OneDrive\Documents\GitHub\Visumify\jobs.html" class="nav-link">Jobs</a>
                     </li>
                     <li class="nav-item px-2 ">
-                        <a href="" class="nav-link">Candidates</a>
+                        <a href="C:\Users\Haroon\OneDrive\Documents\GitHub\Visumify\candidates.html"
+                            class="nav-link">Candidates</a>
                     </li>
                     <li class="nav-item px-2 ">
                         <a href="" class="nav-link">Employer</a>
                     </li>
-                    <li class="nav-item px-2 pl-4">
-                        <a href="" class="nav-link1"><i class="fas fa-pencil-alt" style="color: #55A747;"></i> <span
-                                class="join"> Join Us </span></a>
+                    <li class="nav-item">
+                        <a> <i class="fas fa-heart fa-2x" style="color: rgb(153, 153, 153); font-size:20px"></i><span
+                                class="counter counter-lg">9</span>&nbsp;&nbsp;</a>
                     </li>
-                    <li class="nav-item px-2">
-                        <a href="" class="nav-link1 btn btn-success py-1"
-                            style="color:white !important; border-radius: 0px;"> <i
-                                class="fal fa-sign-in-alt "></i><span class=""> Sign In</span> </b></a>
+                    <li class="nav-item">
+                        <a> <i class="fas fa-bars" style="color: rgb(153, 153, 153); font-size:20px"></i></a>
+                    </li>
+                    <li class="nav-item ml-3">
+                        <img src="Assets/img/candidatePicture/candidate3.png" class="rounded-circle" alt="Cinque Terre" width="50" height="45">
                     </li>
 
 
@@ -76,136 +81,211 @@
 
     <!-- Start of Header-->
 
-    <section id="header4">
+    <section id="Login_Page_Header">
 
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="px-4 col-12 mx-auto SignUp-header-inner">
-                    <!-- Search form -->
+        <!-- Company Profile Cover -->
 
-
-
-
-
-
-                    <h1 style="font-weight:600;" class=" text-center text-white">INFINITE POSSIBILITIES
-                    </h1>
-
-
-                    <p class=" text-center px-5 pb-2 text-white">
-                        We created Resruitiing product that will help brands thrive in a connected world.
-                    </p>
-
-                </div>
-
-            </div>
-
-
+        <div style="height: 40vh; background-image: url('Assets/img/job5.jpg'); background-repeat: no-repeat;
+        background-size: cover;">
         </div>
+
+
+
     </section>
 
     <!-- End of Header-->
 
-    <!-- Start of SignUp FORM -->
-    <section id="SignUp">
-        <div class="container d-flex align-items-center justify-content-center mt-5 mb-5">
+    <!-- Start of Resume  -->
+
+    <section id="loginPage">
+
+        <div class="container-fluid">
+
+            <div class="row mt-5">
 
 
-           
+                <div class="container-fluid SignUp_Form">
 
-                <div class="SignUP_container">
-                    <div class="row mb-5" style="border: 2px solid;">
-                        <div class="col-5">
-                            <button type="button" class="cancelbtn" style="border:2px solid chartreuse;">Cancel</button>
+                    <div class="row mb-3">
+                        <div class="col-lg-6 py-4 CharacterLogin" data-toggle="collapse" href="#candidateSignUPform">
+                            <a> <i class="fas fa-user-plus"></i>
+                                I am a Candidate</a>
                         </div>
-                        <div class="col-5">
-                            <button type="submit" class="signupbtn">Sign Up</button>
+                        <div class="col-lg-6 py-4 CharacterLogin" data-toggle="collapse" href="#employerSignUPform">
+                            <a> <i class="fas fa-briefcase"></i>
+                                I am an Employer</a>
                         </div>
                     </div>
-
-                    
 
                     <div class="row">
-                        <form action="/action_page.php" style="border:0.5px solid #ccc">
-                        <div class="col-12 px-5 py-3 mt-2 mx-3 my-3">
+                        <div class="container-fluid formPAGE">
+
+                            <div class="collapsed" id="candidateSignUPform">
+
+                                <form class="form-horizontal" action="/action_page.php">
+                                    <div class="input-group mt-5">
+                                        <input id="name" class="form-control" name="name" placeholder="Username"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff; font-size: 13px;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-user" style="color: #CBCBCB;"></i></span>
+                                    </div>
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Email Address" type="Email" class="form-control" name="Email Address"
+                                            placeholder="Email"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-envelope" style="color: #CBCBCB;"></i></span>
+                                    </div>
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Password" type="password" class="form-control" name="password"
+                                            placeholder="Password"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon"
+                                            style="background-color: #fff; margin-top: 5px !important;"><i
+                                                class="fas fa-key" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <select class="search-input form-control" name="Specialisms"
+                                            style="font-size: 12px; color:#AAAAAA;">
+                                            <option class="option" value="">All Specialisms</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Phone Number" type="tel" class="form-control" name="Phone Number"
+                                            placeholder="Phone Number*"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-phone" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <select class="search-input form-control" name="listing"
+                                            style="font-size: 12px; color:#AAAAAA;">
+                                            <option class="option" value="">Allow in search & listing</option>
+                                        </select>
+                                    </div>
 
 
-                            <!-- <input type="text" placeholder="Username" name="username" required>
+                                    <div class="checkbox-inline termsCondition">
+                                        <input id="checkbox" type="checkbox">
+                                        <label for="checkbox">
+                                            By Registering You Confirm That You Accept The
+                                            <a href="#"> Terms and Conditions</a>
+                                            And <a href="#"> Privacy Policy</a>
+                                        </label>
+                                    </div>
 
-                            <input type="text" placeholder="Email" name="email" required>
+                                    <div class="submit_button">
+                                        <input type="submit" class="btn btn-success py-1" value="Create Account">
+                                    </div>
+                                </form>
 
-                            <input type="password" placeholder="Password" name="psw" required>
-
-                            <select class="px-2 form-control" name="specialism">
-                                <option class="option" value="" >Please Select specialism</option>
-                            </select>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
-                                Remember me
-                            </label> -->
-
-
-                            <!-- <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input id="email" type="text" class="form-control" name="email" placeholder="Email">
-                              </div>
-                              <div class="input-group">
-                               
-                                <input id="password" type="password" class="form-control" name="password" placeholder="Password">
-                     <span class="fontawesome"><i class="fa fa-user" aria-hidden="true"></i></span> 
-        
-                            
                             </div>
-                              <div class="input-group">
-                                <span class="input-group-addon">Text</span>
-                                <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
-                              </div>
-                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms &
-                                    Privacy</a>.</p> -->
 
 
 
-                                    <div class="form-group">
-                                        <input id="username" type="text" class="form-control" name="username" placeholder="username">
-                                      </div>
-                                      <div class="form-group">
-                                        <input id="email" type="text" class="form-control" name="email" placeholder="email">    
-                                      </div>
-                                      <div class="form-group">
-                                        <input id="password" type="text" class="form-control" name="password" placeholder="password">
-                                      </div>
+                            <div class="collapse" id="employerSignUPform">
+
+                                <form class="form-horizontal" action="/action_page.php">
+                                    <div class="input-group mt-5">
+                                        <input id="name" class="form-control" name="name" placeholder="Username"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff; font-size: 13px;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-user" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Email Address" type="Email" class="form-control" name="Email Address"
+                                            placeholder="Email"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-envelope" style="color: #CBCBCB;"></i></span>
+                                    </div>
+                                    
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Password" type="password" class="form-control" name="password"
+                                            placeholder="Password"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon"
+                                            style="background-color: #fff; margin-top: 5px !important;"><i
+                                                class="glyphicon glyphicon-eye-open" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="CompanyName" type="text" class="form-control" name="OrganizationName"
+                                            placeholder="Organization Name"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-briefcase" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <select class="search-input form-control" name="Specialisms"
+                                            style="font-size: 12px; color:#AAAAAA;">
+                                            <option class="option" value="">All Specialisms</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <input id="Phone Number" type="tel" class="form-control" name="Phone Number"
+                                            placeholder="Phone Number*"
+                                            style="border: solid 1px; border-right: 0px; border-color: #CBCBCB; background-color: #fff;">
+                                        <span class="input-group-addon" style="background-color: #fff;"><i
+                                                class="glyphicon glyphicon-phone" style="color: #CBCBCB;"></i></span>
+                                    </div>
+
+                                    <div class="input-group mt-4 pt-2">
+                                        <select class="search-input form-control" name="listing"
+                                            style="font-size: 12px; color:#AAAAAA;">
+                                            <option class="option" value="">Allow in search & listing</option>
+                                        </select>
+                                    </div>
 
 
+                                    <div class="checkbox-inline termsCondition">
+                                        <input id="checkbox" type="checkbox">
+                                        <label for="checkbox">
+                                            By Registering You Confirm That You Accept The
+                                            <a href="#"> Terms and Conditions</a>
+                                            And <a href="#"> Privacy Policy</a>
+                                        </label>
+                                    </div>
 
+                                    <div class="submit_button">
+                                        <input type="submit" class="btn btn-success py-1" value="Create Account">
+                                    </div>
+                                </form>
 
-
-
-                            <div class="clearfix">
-                                <button type="button" class="cancelbtn">Cancel</button>
-                                <button type="submit" class="signupbtn">Sign Up</button>
                             </div>
+
                         </div>
-                    </form>
 
 
                     </div>
 
-
-                
                 </div>
 
-            
 
+            </div>
 
         </div>
 
+
+
     </section>
-    <!-- End of SignUp FORM -->
+
+
+
+
+
+    <!-- End of Candidate Dashboard -->
 
     <!-- Footer -->
 
-    <!-- <footer id="footer">
+    <footer id="footer">
         <div class="cs-footer footer-v1 default-footer">
             <div class="footer-top">
                 <div class="container">
@@ -348,17 +428,20 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Assets/Jquery/colabsable.js"></script>
+    <script src="Assets/Jquery/tooltip.js"></script>
+
+
+
+
+
 
 </body>
 
 </html>
-
-
-
-
-
-

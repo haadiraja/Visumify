@@ -112,9 +112,26 @@ img.wp-smiley, img.emoji {
   border: none !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Index_________________________________________________________ */
+
+
+
 
 #header {
   background-color: black;
@@ -140,7 +157,6 @@ img.wp-smiley, img.emoji {
 }
 
 #navbar {
-  /* border-bottom : 3px solid #3797a4; */
   background: #FFFFFF;
   top: 0;
   z-index: 10;
@@ -166,7 +182,6 @@ img.wp-smiley, img.emoji {
 } */
 
 .inner-card {
-  /* border: solid 0.5px rgba(128, 128, 128, 0.089); */
   border: none !important;
   background-color: #f9f9f9;
   transition: all ease-in-out 0.3s;
@@ -250,9 +265,24 @@ select {
   color: #979797 !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Jobs_________________________________________________________ */
+
+
 
 .jobs-header-inner {
   margin-top: 75px !important;
@@ -297,7 +327,6 @@ select {
 
 .jobs-inner-card {
   border: solid 0.5px rgba(128, 128, 128, 0.089);
-  /* background-color: white; */
   transition: all ease-in-out 0.3s;
 }
 
@@ -322,7 +351,6 @@ select {
 }
 
 .sidebar-filters {
-  /* border-radius: 1px !important; */
   border-color: grey !important;
   border: 0.5px !important;
 }
@@ -350,14 +378,27 @@ select {
   border-color: #55A747;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Candidates_________________________________________________________ */
 
+
+
+
 .candidates_searchBox {
   margin-top: 20px !important;
   margin-left: 25px;
-  /* background-color: #f5f6f8 !important; */
 }
 
 .candidates_searchBox ul li {
@@ -401,7 +442,6 @@ input:focus {
 
 .candidates-inner-card {
   border: solid 0.5px rgba(128, 128, 128, 0.089);
-  /* background-color: white; */
   transition: all ease-in-out 0.3s;
 }
 
@@ -433,13 +473,6 @@ input:focus {
   padding-bottom: 5px;
   border-radius: 0px;
 }
-
-/*
-.btn-outline-dark:hover{
-  color: #55A747 !important; 
-  background-color: #fff;
-  border-color: #55A747;
-} */
 
 .page-numbers {
   margin-top: 2rem;
@@ -474,117 +507,22 @@ input:focus {
   color: #FFFFFF !important;
 }
 
-/*========================================================================================================================================== */
 
-/* ______________________________________________________________________LogIn_Page_________________________________________________________ */
 
-.marmin {
-  margin-top: -60px;
-}
 
-#header4 {
-  height: 42vh;
-  /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-  background: grey;
-  /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-  /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
-}
 
-.SignUp_background {
-  margin-top: 130px !important;
-  /* background-color: #f5f6f8 !important; */
-}
 
-.SignUp-header-inner {
-  margin-top: 100px !important;
-}
 
-* {
-  box-sizing: border-box
-}
 
-/* Full-width input fields */
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
 
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-
-button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity: 1;
-}
-
-/* Extra styles for the cancel button */
-
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-
-.SignUP_container {
-  padding: 45px;
-  width: 630px;
-}
-
-/* Clear floats */
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
-}
-
-#SignUp {
-  height: 75vh;
-}
 
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Candidates_Dashboard_________________________________________________________ */
+
+
 
 /* #Candidate_Dashboard_header{
 
@@ -643,7 +581,6 @@ button:hover {
 }
 
 .sidebar-filters {
-  /* border-radius: 1px !important; */
   border-color: grey !important;
   border: 0.5px !important;
 }
@@ -795,7 +732,6 @@ button:hover {
 
 .shortlistedJobs_card {
   border: solid 0.5px rgba(128, 128, 128, 0.089);
-  /* background-color: white; */
   transition: all ease-in-out 0.3s;
   margin-top: 20px;
   cursor: pointer;
@@ -812,7 +748,6 @@ button:hover {
 
 .appliedJobs_card {
   border: solid 0.5px rgba(128, 128, 128, 0.089);
-  /* background-color: white; */
   transition: all ease-in-out 0.3s;
   margin-top: 20px;
   cursor: pointer;
@@ -841,7 +776,6 @@ button:hover {
 
 .jobAlerts_card {
   border: solid 0.5px rgba(128, 128, 128, 0.089);
-  /* background-color: white; */
   transition: all ease-in-out 0.3s;
   margin-top: 20px;
   cursor: pointer;
@@ -872,15 +806,26 @@ button:hover {
   cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Candidates_Profile_________________________________________________________ */
 
+
+
 #Profile_Overview {
   height: 100%;
-  /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-  /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-  /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
 }
 
 .hero-image {
@@ -953,7 +898,6 @@ button:hover {
 } */
 
 .overview_navbar {
-  /* border-bottom : 3px solid #3797a4; */
   background: #FFFFFF;
   top: 0;
   z-index: 10;
@@ -1012,9 +956,6 @@ button:hover {
   line-height: 1.8em;
 }
 
-/* .about_section p{
-  line-height: 1.8em;
-} */
 
 #candidate_education {
   font: Normal 13px "Montserrat", sans-serif;
@@ -1111,9 +1052,24 @@ button:hover {
   vertical-align: middle;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Company_Dashboard_________________________________________________________ */
+
+
 
 /* #Company_Dashboard_header{
  
@@ -1349,15 +1305,26 @@ button:hover {
   color: rgb(88, 88, 88);
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /*========================================================================================================================================== */
 
 /* ______________________________________________________________________Company_Profile_________________________________________________________ */
 
+
+
+
 #Company_Profile_Overview {
   height: 100%;
-  /* background: url('/img/header1.jpg')  no-repeat center/cover; */
-  /* background: linear-gradient(180deg,  #18304bf1, #18304bf1), url('/img/header.jpg')  no-repeat center/cover; */
-  /* background: linear-gradient(360deg,  #203f62, #070d13) fixed; */
 }
 
 .company_hero-image {
@@ -1464,4 +1431,63 @@ button:hover {
   margin-bottom: 5px;
   padding: 5px;
   width: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================================================================================================================== */
+
+/* ______________________________________________________________________SignUP & Login Page_________________________________________________________ */
+
+
+
+.SignUp_Form{
+  width: 555px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: Normal 13px "Montserrat", sans-serif;
+  color: #A9A9A9;
+  text-align: center;
+  
+}
+
+.CharacterLogin{
+  border: solid 0.5px #c5c5c5;
+  display: block;
+  cursor: pointer;
+}
+
+.CharacterLogin:hover {
+  color: #55a747 !important;
+}
+
+
+.formPAGE{
+  margin-top: 20px;
+  border: solid 0.5px #c5c5c5;
+  
+}
+
+.termsCondition label{
+  margin-top: 18px;
+  text-align: left;
+  font: Normal 13px "Montserrat", sans-serif;
+}
+
+.submit_button{
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }

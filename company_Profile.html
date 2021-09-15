@@ -62,8 +62,8 @@
                     <li class="nav-item">
                         <a> <i class="fas fa-bars" style="color: rgb(153, 153, 153); font-size:20px"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a> <i class="fas fa-heart" style=" font-size:20px"></i></a>
+                    <li class="nav-item ml-3">
+                        <img src="Assets/img/employersLogo/employer-logo-6.png" class="rounded-circle" alt="Cinque Terre" width="50" height="45">
                     </li>
 
 
@@ -427,6 +427,12 @@
                 </div>
 
 
+            </div>
+
+        </div>
+
+
+
 
     </section>
 
@@ -458,6 +464,9 @@
 
                                         <input type="hidden" id="cs_list_id" name="cs_list_id" value="0" /></li>
                                         </ul><input type="text"
+                                            onblur="if (this.value == '') {this.value = 'Enter your email address';}"
+                                            onfocus="if (this.value == 'Enter your email address') {this.value = '';}"
+                                            class="txt-bar vsmall" id="mc_email" name="mc_email"
                                             value="Enter your email address" /></li>
                                         </ul> <label>
                                             <button type="submit" value="Submit"><i
